@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Haven - Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="floating-elements"></div>
+    <div class="container">
+    <header>
+        <div class="nav contain">
+            <!-- logo -->
+             <!-- menu icons -->
+            <div class="menu-icon" id="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+             </a>
+             <!-- navbar -->
+             <div class="navbar" id="navbar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="product.html" class="nav-link">Product</a>
+                <a href="service.html" class="nav-link">Service</a>
+                <a href="aboutus.html" class="nav-link">About Us</a>
+                <a href="index1.html" class="nav-link active">Blog</a>
+             </div>
+             <!-- Nav Right -->
+             <div class="nav-right">
+                <i class="ri-search-2-line"></i>
+                <!-- login button -->
+                <div class="auth-buttons">
+                    <a href="register.html" class="register-btn">Register</a>
+                    <a href="login.html" class="login-btn">Login</a>
+                </div>
+                
+             </div> 
+        </div>
+    </header>
+
+        <main class="container">
+            <section class="hero">
+                <h1>Smart and Green Living</h1>
+                <p>Check out home styling tips for inspiration on your furniture choices!</p>
+                <div class="hero-underline"></div>
+
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="find article...">
+                    <button class="search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+
+                <div class="filter-tabs">
+                    <button class="filter-tab active" data-category="all">All</button>
+                    <button class="filter-tab" data-category="design">Sustainable Designed</button>
+                    <button class="filter-tab" data-category="energy">Renewable Energy</button>
+                    <button class="filter-tab" data-category="materials">Environmentally Materials</button>
+                    <button class="filter-tab" data-category="tips">Tips & Trick</button>
+                </div>
+
+                    <div class="blog-grid" id="blogGrid">
+                            <article class="blog-card" data-category="design">
+                                <img src="https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=400&h=200&fit=crop" alt="Rumah Minimalis Berkelanjutan" class="blog-image">
+                                <div class="blog-content">
+                                    <div class="blog-category">sustainable designed</div>
+                                    <h3 class="blog-title">Sustainable Minimalist Home Concept</h3>
+                                    <p class="blog-excerpt">Discover how to combine minimalist aesthetics with sustainability principles in your dream home design.</p>
+                                    <div class="blog-meta">
+                                        <span>15 Januari 2025</span>
+                                        <a href="#" class="read-more">Read More →</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-card" data-category="energy">
+                                <img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?w=400&h=200&fit=crop" alt="Panel Surya" class="blog-image">
+                                <div class="blog-content">
+                                    <div class="blog-category">Renewable Energy</div>
+                                    <h3 class="blog-title">Complete Guide to Installing Solar Panels at Modern Home</h3>
+                                    <p class="blog-excerpt">Learn step-by-step how to install solar panels, from calculating needs to system maintenance. See how ur panels works.</p>
+                                    <div class="blog-meta">
+                                        <span>12 Januari 2025</span>
+                                        <a href="#" class="read-more">Read More →</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-card" data-category="materials">
+                                <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=200&fit=crop" alt="Material Bambu" class="blog-image">
+                                <div class="blog-content">
+                                    <div class="blog-category">Environmentally Materials</div>
+                                    <h3 class="blog-title">Bamboo: Future Material for Sustainable Construction</h3>
+                                    <p class="blog-excerpt">Explore the advantages of bamboo as an alternative construction material that is strong, flexible and environmentally friendly.</p>
+                                    <div class="blog-meta">
+                                        <span>10 Januari 2025</span>
+                                        <a href="#" class="read-more">Read More →</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-card" data-category="tips">
+                                <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=200&fit=crop" alt="Penghematan Air" class="blog-image">
+                                <div class="blog-content">
+                                    <div class="blog-category">Tips & Trick</div>
+                                    <h3 class="blog-title">10 Effective Ways to Save Water at Home</h3>
+                                    <p class="blog-excerpt">Practical and easy-to-apply tips to reduce daily water consumption without reducing living comfort.</p>
+                                    <div class="blog-meta">
+                                        <span>8 Januari 2025</span>
+                                        <a href="#" class="read-more">Read More →</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-card" data-category="design">
+                                <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=400&h=200&fit=crop" alt="Taman Vertikal" class="blog-image">
+                                <div class="blog-content">
+                                    <div class="blog-category">Sustainable Designed</div>
+                                    <h3 class="blog-title">Creating a Vertical Garden for Urban Homes</h3>
+                                    <p class="blog-excerpt">The complete guide to designing and maintaining a beautiful and functional vertical garden in limited space.</p>
+                                    <div class="blog-meta">
+                                        <span>5 Januari 2025</span>
+                                        <a href="#" class="read-more">Read More →</a>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <article class="blog-card" data-category="energy">
+                                <img src="https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?w=400&h=200&fit=crop" alt="Smart Home" class="blog-image">
+                                <div class="blog-content">
+                                    <div class="blog-category">Renewable Energy</div>
+                                    <h3 class="blog-title">Smart Home: Energy-Saving Technology for Modern Homes</h3>
+                                    <p class="blog-excerpt">Explore a variety of smart home technologies that can optimize energy usage and reduce electricity bills.</p>
+                                    <div class="blog-meta">
+                                        <span>3 Januari 2025</span>
+                                        <a href="#" class="read-more">Read More →</a>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

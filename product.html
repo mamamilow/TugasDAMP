@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Housing</title>
+     <!-- Link to CSS -->
+     <link rel="stylesheet" href="product.css">
+
+      <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+     <!-- BoxIcons -->
+     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+     <!-- RemixIcons -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+</head>
+<body>
+    <!-- NAVBAR-->
+    <header>
+        <div class="nav contain">
+            <!-- logo -->
+             <!-- menu icons -->
+            <div class="menu-icon" id="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="">
+             </a>
+             <!-- navbar -->
+             <div class="navbar" id="navbar">
+                <a href="index.html" class="nav-link ">Home</a>
+                <a href="product.html" class="nav-link active">Product</a>
+                <a href="service.html" class="nav-link">Service</a>
+                <a href="aboutus.html" class="nav-link">About Us</a>
+                <a href="index1.html" class="nav-link">Blog</a>
+             </div>
+             <!-- Nav Right -->
+             <div class="nav-right">
+                <i class="ri-search-2-line"></i>
+                <!-- login button -->
+                <div class="auth-buttons">
+                    <a href="#" class="register-btn">Register</a>
+                    <a href="#" class="login-btn">Login</a>
+                </div>
+                
+             </div> 
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+         <div class="container">
+            <div class="home-text">
+                <div class="text">
+                    <h1>Your Dream Home, Crafted with Heart</h1>
+                    <p>We don’t just design buildings — we craft spaces filled with warmth, meaning, and peace. A true reflection of you, where every day begins and ends in comfort.
+                    </p>
+                </div>
+                <div class="btn-hero">
+                    <!-- <a href="https://youtube.com" class="btn">
+                        <i class="ri-leaf-fill"></i>
+                        <span>Green Solution</span>
+                        <img src="img/play.png" alt=" ">
+                    </a> -->
+                    <a href="#category" class="btn2">
+                        <span>Lihat Semua Product</span>
+                        <i class="ri-arrow-right-up-line"></i>
+                    </a>
+                </div>
+            </div>
+            <img src="img/support.png" alt="">
+        </div>
+    </section>
+
+
+
+
+    <section class="KategoriProduk">
+        <div class="category isi" id="category">
+            <a href="#products">
+                <img src="img/bottom-scroll.png" alt="" class="scroll-bottom"/>
+            </a>
+            <div class="category-content">
+                <div class="image-wrapper">
+                    <span></span>
+                    <!-- <img src="img/category-bg.png" alt="" class="category-img-1">
+                    <img src="img/category-bg.png" alt="" class="category-img-2"> -->
+                </div>
+                <h2>Product Categories</h2>
+
+                <div class="swiper categorySwiper">
+                    <div class="swiper-wrapper">
+                      
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro1.png" alt="">
+                                <h3>EcoLuxury Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro2.png" alt="">
+                                <h3>EcoPrimary Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro3.png" alt="">
+                                <h3>EcoAffordable Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro4.png" alt="">
+                                <h3>EcoGlass Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro1.png" alt="">
+                                <h3>EcoLuxury Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro2.png" alt="">
+                                <h3>EcoPrimary Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro3.png" alt="">
+                                <h3>EcoAffordable Homes</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="category-box">
+                                <img src="img/pro4.png" alt="">
+                                <h3>EcoGlass Homes</h3>
+                            </div>
+                        </div>
+                        </div>
+                    <!-- swiper btns-->
+                    <div class="swiper-btn">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+
+                  
+            </div>
+        </div>
+    </section> 
+
+    <section class="promo">
+        <div class="promo-container">
+            <div class="text-content">
+              <h1>Flash Sale!</h1>
+              <p>Get 25% off – Limited Time Offer!</p>
+        
+              <div class="countdown">
+                <div>
+                  <span id="days">00</span>
+                  <div class="label">Days</div>
+                </div>
+                <div>
+                  <span id="hours">00</span>
+                  <div class="label">Hours</div>
+                </div>
+                <div>
+                  <span id="minutes">00</span>
+                  <div class="label">Minutes</div>
+                </div>
+                <div>
+                  <span id="seconds">00</span>
+                  <div class="label">Seconds</div>
+                </div>
+              </div>
+        
+              <a href="#" class="btn">Shop Now →</a>
+            </div>
+        
+            <div class="image-content">
+              <img src="img/pro3.png" alt="Product">
+            </div>
+          </div>
+    </section>
+
+    <section class="katalogproduk">
+        <div class="headingTop">
+            <h1>Best Properties Available</h1>
+            <div class="penjelas">
+                <span>Miliki rumah dengan desain premium dan fasilitas unggulan yang hanya tersedia untuk segelintir penghuni terpilih. </span>
+                <div class="underline"></div>
+            </div>
+            <div class="button">
+                <div class="filter-button active"> Best Offer</div>
+                <div class="filter-button"> Today Sell</div>
+                <div class="filter-button"> Top Rated</div>
+                <div class="filter-button"> Under Budget</div>
+            </div>
+        </div>
+
+      
+        <!-- Card Product -->
+        <div class="card-container">
+
+            <!-- CARD 1 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah1.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 2 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah2.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 3 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah3.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 4 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah4.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 5 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah5.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 6 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah6.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 7 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah7.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 8 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah8.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+            <!-- CARD 1 -->
+            <div class="property-card">
+                <div class="property-image">
+                  <img src="img/rumah9.png" alt="House 1">
+                </div>
+                <div class="property-content">
+                  <div class="property-title">Meadow Haven</div>
+                  <div class="property-desc">Expansive outdoor spaces perfect for relaxation</div>
+                  <div class="property-info">
+                      <div class="left-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>
+                      
+                      <div class="right-info">
+                          <div class="room">
+                              <i class="ri-door-open-line"></i> 9 Rooms
+                          </div>
+                          <div class="bathroom">
+                              <i class='bx  bx-bath'></i> 6 Bathrooms
+                          </div> 
+                      </div>                  
+                  </div>
+  
+                  <div class="price">
+                      <h3>$95,000</h3>
+                      <button class="check-btn">Check Now</button>
+                  </div>
+                  
+                </div>
+            </div>
+        
+          </div>
+    </section>
+
+
+    
+    <section class="katalog" id="katalog">
+        <div class="headingTop">
+            <h1>Exclusive Listings</h1>
+            <div class="penjelas">
+                <span>Rumah adalah pelukan hangat setelah hari yang panjang.
+                    Dan kami hadir untuk merancang pelukan itu, setulus mungkin.</span>
+                <img src="img/garis.png" alt="">
+            </div>
+        </div>
+
+        <div class="tips-content">
+            <div class="blogs">
+        
+                <!-- Post 1 -->
+                <div class="single-post wide">
+                    <img src="img/katalog1.png" alt="">
+                    <div class="single-post-text">
+                        <div class="post-data">
+                            <h2>Checklist of important camping supplies</h2>
+                            <div class="read">
+                                <i class="ri-time-line"></i>
+                                <span>5 minutes read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+                </div>
+        
+                <!-- Post 2 -->
+                <div class="single-post narrow">
+                    <img src="img/katalog2.png" alt="">
+                    <div class="single-post-text">
+                        <div class="post-data">
+                            <h2>Checklist of important camping supplies</h2>
+                            <div class="read">
+                                <i class="ri-time-line"></i>
+                                <span>5 minutes read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+                </div>
+        
+                <!-- Post 3 -->
+                <div class="single-post narrow">
+                    <img src="img/katalog3.png" alt="">
+                    <div class="single-post-text">
+                        <div class="post-data">
+                            <h2>Checklist of important camping supplies</h2>
+                            <div class="read">
+                                <i class="ri-time-line"></i>
+                                <span>5 minutes read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+                </div>
+        
+                <!-- Post 4 -->
+                <div class="single-post wide">
+                    <img src="img/katalog4.png" alt="">
+                    <div class="single-post-text">
+                        <div class="post-data">
+                            <h2>Checklist of important camping supplies</h2>
+                            <div class="read">
+                                <i class="ri-time-line"></i>
+                                <span>5 minutes read</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#"><i class="ri-arrow-right-up-line"></i></a>
+                </div>
+        
+            </div>
+        </div>
+        
+    </section>
+    
+
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Kiri -->
+          <div class="footer-left">
+            <h2>EcoHousing</h2>
+            <p>We don’t just build houses: we create sanctuaries of warmth and love a little piece of heaven where every moment feels like home</p>
+            <div class="footer-contact">
+              <p><i class="ri-building-line"></i> Jl. Zerovagata No 119</p>
+              <p><i class="ri-mail-line"></i> homehaven@gmail.com</p>
+            </div>
+          </div>
+      
+          <!-- Kanan: Sosial Media + Links -->
+          <div class="footer-right">
+            <!-- Sosial Media -->
+            <div class="footer-social">
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+              <a href="#"><i class="ri-whatsapp-line"></i></a>
+            </div>
+      
+            <!-- Links -->
+            <div class="footer-links">
+              <div>
+                <h4>Company</h4>
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><a href="#">Careers</a></li>
+                  <li><a href="#">Our Team</a></li>
+                  <li><a href="#">Help Center</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4>Shop</h4>
+                <ul>
+                  <li><a href="#">Gift Cards</a></li>
+                  <li><a href="#">Our Product</a></li>
+                  <li><a href="#">My Account</a></li>
+                  <li><a href="#">Shopping</a></li>
+                  <li><a href="#">Returns</a></li>
+                </ul>
+              </div>
+              <div>
+                <h4>Support</h4>
+                <ul>
+                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Payment Options</a></li>
+                  <li><a href="#">Store Locator</a></li>
+                  <li><a href="#">Accessibility</a></li>
+                  <li><a href="#">Affiliates</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>Copyright 2024 Salsabillah R P. All Right Reserved</p>
+          <p><a href="#">User Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+        </div>
+     </footer>
+    
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+
+    <!-- Link To JS -->
+     <script src="main.js"></script>
+</body>
+</html>
