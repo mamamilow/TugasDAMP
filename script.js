@@ -1,13 +1,12 @@
-document.addEventListener('DOMContentLoaded', function() {
-        const hamburgerMenu = document.querySelector('.hamburger-menu');
-        const navUl = document.querySelector('nav ul');
+document.addEventListener('DOMContentLoaded', function () {
+    const menuIcon = document.getElementById('menu-icon');
+    const navbar = document.getElementById('navbar');
 
-        if (hamburgerMenu && navUl) {
-            hamburgerMenu.addEventListener('click', function() {
-                navUl.classList.toggle('active');
-            });
-        }
+    menuIcon.addEventListener('click', function () {
+        navbar.classList.toggle('active');
+        menuIcon.classList.toggle('open');
     });
+});
 
 document.addEventListener('DOMContentLoaded', function() {
     // Smooth scrolling for anchor links
